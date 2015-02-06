@@ -37,8 +37,19 @@ body {
   body p, h3 {
   	color: #ffffff;
   }
+
   body a {
   	color: #66FFFF;
+  }
+
+  #space {
+    height: 300px;
+
+  }
+
+  .gone{
+    height: 100px;
+    overflow: hidden
   }
 }
 
