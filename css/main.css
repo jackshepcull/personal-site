@@ -1,0 +1,51 @@
+/**********************************
+  BG image
+***********************************/
+body {
+	background-image: url("../images/jsc_bg_crop.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+
+/**********************************
+  Google map
+***********************************/
+#map-canvas {
+	height: 100%;
+	z-index: 1000;
+	/*width: 500px;*/
+	margin: 0;
+	padding: 0;
+}
+
+.gone{
+	height: 250px;
+	overflow: hidden
+}
+
+/* BG for small screens */
+/*@media only screen and (max-width: 767px) {
+  body {
+    background-image: url("../images/jsc_bg_crop.jpg");
+  }
+}*/
+
+@media only screen and (max-width: 460px) {
+  body p, h3 {
+  	color: #ffffff;
+  }
+  body a {
+  	color: #66FFFF;
+  }
+}
+
+/*.navbar-brand,
+.navbar-nav li a {
+    line-height: 15px;
+    height: 15px;
+    padding-top: 0;
+}
+*/
